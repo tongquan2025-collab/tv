@@ -9,15 +9,15 @@ on:
       server_url:
         description: 'Server URL (e.g. https://your-site.com)'
         required: true
-        default: 'https://ednovas.video'
+        default: 'https://tv.tqhome.top:17777'
       app_name:
         description: 'App Name'
         required: true
-        default: 'E视界'
+        default: '桐泉影视'
       version_tag:
-        description: 'Version Tag (e.g. v1.0.0)'
+        description: 'Version Tag (e.g. v1.0.1)'
         required: true
-        default: 'v1.0.0'
+        default: 'v1.0.1'
 
 jobs:
   build:
@@ -248,7 +248,7 @@ jobs:
             ---
             
             > ⚠️ 首次安装可能需要允许"安装未知来源应用"
-          files: android/app/build/outputs/apk/release/*.apk
+          文件: android/app/build/outputs/apk/release/*.apk
           draft: false
           prerelease: false
         env:
