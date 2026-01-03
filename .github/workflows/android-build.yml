@@ -9,7 +9,7 @@ on:
       server_url:
         description: 'Server URL (e.g. https://your-site.com)'
         required: true
-        default: 'https://tv.tqhome.top:17777'
+        default: 'https://tv.198062.xyz'
       app_name:
         description: 'App Name'
         required: true
